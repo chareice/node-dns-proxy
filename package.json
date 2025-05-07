@@ -1,0 +1,21 @@
+{
+  "name": "node-dns-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.mjs start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.0",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "commander": "^13.1.0",
+    "dns-packet": "^5.6.1",
+    "pino": "^9.6.0",
+    "uuid": "^11.1.0"
+  }
+}
